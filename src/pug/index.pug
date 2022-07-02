@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Bare - Start Bootstrap Template
+        title zacharyc consulting
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -21,7 +21,7 @@ html(lang='en')
         // Responsive navbar
         nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
             .container
-                a.navbar-brand(href='#') Start Bootstrap
+                a.navbar-brand(href='#') zacharyc consulting
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
@@ -29,26 +29,42 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.active(aria-current='page', href='#') Home
                         li.nav-item
-                            a.nav-link(href='#') Link
-                        li.nav-item.dropdown
-                            a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false')
-                                | Dropdown
-                            ul.dropdown-menu.dropdown-menu-end(aria-labelledby='navbarDropdown')
-                                li
-                                    a.dropdown-item(href='#') Action
-                                li
-                                    a.dropdown-item(href='#') Another action
-                                li
-                                    hr.dropdown-divider
-                                li
-                                    a.dropdown-item(href='#') Something else here
+                            a.nav-link(href='#services') Services
+                        li.nav-item
+                            a.nav-link(href='#experience') Experience
+                        li.nav-item
+                            a.nav-link(href='#process') Process
+                        //li.nav-item
+                           // a.nav-link(href='#contact') Link
+                        // li.nav-item
+                           //  a.nav-link(href='#') Link
+                        // li.nav-item.dropdown
+                        //    a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false')
+                                // | Dropdown
+                            // ul.dropdown-menu.dropdown-menu-end(aria-labelledby='navbarDropdown')
+                               // li
+                                 //   a.dropdown-item(href='#') Action
+                                // li
+                                   // a.dropdown-item(href='#') Another action
+                                // li
+                                   // hr.dropdown-divider
+                                // li
+                                   // a.dropdown-item(href='#') Something else here
 
         // Page content
         .container
             .text-center.mt-5
-                h1 A Bootstrap 5 Starter Template
-                p.lead A complete project boilerplate built with Bootstrap
-                p Bootstrap v5.1.3
+                h1 zacharyc consulting
+                p.lead quality consulting from an experienced industry professional
+            .text-left.mt-5
+                h2#services Services
+            .text-left.mt-5
+                h2#Experience Experience
+            .text-left.mt-5
+                h2#process Process
+            .text-left.mt-5
+                h2#contact Contact
+
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
